@@ -1,0 +1,6 @@
+{
+  "name": "32 Pearls Dental Care",
+  "description": "Premier neighbourhood dental clinic in Jalahalli East, Bengaluru. Online appointment booking, comprehensive dental treatments, and patient care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -11,6 +11,7 @@ import { AppointmentModal } from './components/AppointmentModal';
 import { PrivacyModal } from './components/PrivacyModal';
 import { AdminModal } from './components/AdminModal';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
+import { DentalChatbot } from './components/DentalChatbot';
 
 export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -89,6 +90,9 @@ export default function App() {
 
       {/* Floating WhatsApp Action Button */}
       <WhatsAppFloat />
+
+      {/* AI Dental Assistant Chatbot (Pearl) */}
+      <DentalChatbot onOpenBooking={handleOpenBooking} />
     </div>
   );
 }
